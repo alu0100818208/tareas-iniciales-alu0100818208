@@ -12,7 +12,7 @@
 <p>Author: Ángel David Martín Rodríguez</p>
 <p>Correo: alu0100818208@ull.edu.es</p>
 <p>================================================================================</p>
-<h2 id="instalación-de-nodejs.">Instalación de NodeJS.</h2>
+<h2 id="instalación-de-nodejs">Instalación de NodeJS</h2>
 <p>Éste intérprete de <strong>Javascript</strong> hace uso de un modelo de <strong>programación dirigida por eventos</strong> y de <strong>E/S sin bloqueo</strong> lo que lo convierte en una herramienta ligera y eficiente. Además, el paquete <strong>npm</strong> es el mayor ecosistema de librerias open source en el mundo.</p>
 <p>Su instalación en windows es bastante sencilla. Lo primero es descargarnos el instalador en nuestro ordenador:</p>
 <div class="figure">
@@ -24,7 +24,7 @@
 <img src="images/NodeJsPrompt.PNG" />
 
 </div>
-<h2 id="instalación-de-express.">Instalación de Express.</h2>
+<h2 id="instalación-de-express">Instalación de Express</h2>
 <p>Según sus creadores, express es una infraestructura de aplicaciones web Node.js mínima y flexible que proporciona un conjunto sólido de características para las aplicaciones web y móviles.</p>
 <p>Para instalarla haremos uso de <strong>Node.js command prompt</strong>, donde escribiremos el siguiente comando:</p>
 <blockquote>
@@ -52,7 +52,7 @@
 <img src="images/Cloud9.PNG" />
 
 </div>
-<h2 id="atom.">Atom.</h2>
+<h2 id="atom">Atom</h2>
 <p>Es un editor de textos intuitivo y bastante facil de usar. Al igual que cualquier otra aplicación nos descargamos el instalador y seguimos los pasos.</p>
 <div class="figure">
 <img src="images/AtomDownload.PNG" />
@@ -63,6 +63,21 @@
 <img src="images/AtomDesktop.PNG" />
 
 </div>
+<h2 id="pandoc">Pandoc</h2>
+<p>Pandoc es una herramienta que nos permite convertir entre tipos de archivo como pueden ser markdown o html.</p>
+<p>El primer paso es descargarla de la página de GitHub de los desarrolladores y seguir los pasos del instalador.</p>
+<div class="figure">
+<img src="images/PandocDownload" />
+
+</div>
+<p>Lo siguiente es verificar que se ha instalando correctamente introduciendo el <strong>comando</strong>:</p>
+<blockquote>
+<p><code>pandoc --version</code></p>
+</blockquote>
+<p>Por último, tenemos que ir al archivo donde tenemos nuestro fichero a convertir y lo convertimos. En éste caso en específico, pasamos de un markdown a html con el siguiente comando:</p>
+<blockquote>
+<p><code>pandoc index.md -f markdown -t html -s -o index.html</code></p>
+</blockquote>
 <h2 id="markdown">Markdown</h2>
 <p>Es un lenguaje de marcado ligero, que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida.</p>
 <p><strong>Sintaxis:</strong></p>
