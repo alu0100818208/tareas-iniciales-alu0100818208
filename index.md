@@ -69,7 +69,7 @@ Pandoc es una herramienta que nos permite convertir entre tipos de archivo como 
 
 El primer paso es descargarla de la página de GitHub de los desarrolladores y seguir los pasos del instalador.
 
-![](images/PandocDownload)
+![](images/PandocDownload.PNG)
 
 Lo siguiente es verificar que se ha instalando correctamente introduciendo el **comando**:
 
