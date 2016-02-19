@@ -6,7 +6,7 @@ Correo: alu0100818208@ull.edu.es
 
 ================================================================================
 
-## Instalación de NodeJS.
+## Instalación de NodeJS
 
 Éste intérprete de **Javascript** hace uso de un modelo de **programación dirigida por eventos** y de **E/S sin bloqueo**
 lo que lo convierte en una herramienta ligera y eficiente. Además, el paquete **npm** es el mayor ecosistema de librerias
@@ -21,7 +21,7 @@ Luego seguimos los pasos del instalador hasta que haya terminado. Una vez finali
 
 ![](images/NodeJsPrompt.PNG)
 
-## Instalación de Express.
+## Instalación de Express
 
 Según sus creadores, express es una infraestructura de aplicaciones web Node.js mínima y flexible que proporciona un conjunto
 sólido de características para las aplicaciones web y móviles.
@@ -52,7 +52,7 @@ empezar a trabajar en ella.
 
 ![](images/Cloud9.PNG)
 
-## Atom.
+## Atom
 
 Es un editor de textos intuitivo y bastante facil de usar. Al igual que cualquier otra aplicación nos descargamos
 el instalador y seguimos los pasos.
@@ -62,6 +62,22 @@ el instalador y seguimos los pasos.
 Una vez instalado, podemos usarlo para editar el código de nuestros repositorios de GitHub Desktop.
 
 ![](images/AtomDesktop.PNG)
+
+## Pandoc
+
+Pandoc es una herramienta que nos permite convertir entre tipos de archivo como pueden ser markdown o html.
+
+El primer paso es descargarla de la página de GitHub de los desarrolladores y seguir los pasos del instalador.
+
+![](images/PandocDownload)
+
+Lo siguiente es verificar que se ha instalando correctamente introduciendo el **comando**:
+
+> `pandoc --version`
+
+Por último, tenemos que ir al archivo donde tenemos nuestro fichero a convertir y lo convertimos. En éste caso en específico, pasamos de un markdown a html con el siguiente comando:
+
+> `pandoc index.md -f markdown -t html -s -o index.html`
 
 ## Markdown
 
