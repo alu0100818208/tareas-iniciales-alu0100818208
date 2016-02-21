@@ -117,7 +117,12 @@ Listas
 
 * [NodeJS](https://nodejs.org)
 * [Express](http://expressjs.com)
-* [Atom IDE](https://atom.io)
 * [GitHub Desktop](https://desktop.github.com)
 * [GitHub Pages](https://pages.github.com/)
 * [Cloud 9 IDE](https://c9.io)
+* [Atom IDE](https://atom.io)
+* [Pandoc](http://pandoc.org/)
+* [Markdown](https://es.wikipedia.org/wiki/Markdown)
+
+* [Página web de usuario](http://alu0100818208.github.io/)
+* [Página web del Tutorial](http://alu0100818208.github.io/Asignaturas/PL/Tutorial/index.html)
